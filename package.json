@@ -1,0 +1,37 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "Fetch Starwars Heros ",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server --hot --inline --content-base ./src --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreshtamanohar/starwars.git"
+  },
+  "author": "Manohar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreshtamanohar/starwars/issues"
+  },
+  "homepage": "https://github.com/shreshtamanohar/starwars#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "file-loader": "^1.1.11",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.11"
+  }
+}
